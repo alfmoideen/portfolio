@@ -138,7 +138,7 @@ class _AboutPageState extends State<AboutPage> with TickerProviderStateMixin {
                 child: InkWell(
                   onTap: () async {
                     String url =
-                        'https://firebasestorage.googleapis.com/v0/b/portfolio-5768b.appspot.com/o/porfolio%2FAlthafVM_CV.pdf?alt=media&token=6362c61a-305e-4b35-add7-c462f655167a';
+                        'https://firebasestorage.googleapis.com/v0/b/portfolio-5768b.appspot.com/o/porfolio%2FAlthafVM_CV.pdf?alt=media&token=0141827b-5e68-48c3-ae20-aa4ea26f9cda';
                     if (await canLaunch(url)) {
                       await launch(url);
                     } else {
